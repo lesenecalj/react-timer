@@ -86,7 +86,7 @@ function App() {
       {<button onClick={pause} disabled={!isRunning}>{isPaused ? 'Pause' : 'Resume'}</button>}
       {<button onClick={reset} disabled={!isRunning}>Reset</button>}
       
-      <div>Temps restant: {timeFormat(timeLeft)}</div>
+      <div className="remaining-timer">Temps restant: {timeFormat(timeLeft)}</div>
     </div>
   );
 }

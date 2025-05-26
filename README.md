@@ -30,4 +30,8 @@ npm install
 npm start
 ```
 
+## 📸 Screenshots
+![Timer App Screenshot](public/screenshot-timer.png)
+
+
 Developed by lesenecalj
